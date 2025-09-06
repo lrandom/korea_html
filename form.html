@@ -5,11 +5,17 @@
 
     <body>
         <form>
-            <input type="text" value="Nguyen Thanh Luan" name="full_name" placeholder="Input Your Name"/>
-            <input type="password" name="password" placeholder="Input Your Password"/>
-            
+            <label>
+                <span>Full Name</span>
+                <input type="text" value="Nguyen Thanh Luan" name="full_name" placeholder="Input Your Name"/>
+            </label>
+           
+            <label>
+                <span>Password</span>
+                <input type="password" name="password" placeholder="Input Your Password"/>
+            </label>
+           
             <div>Hobby</div>
-
             <div>
                    <input type="checkbox" name="hobbies[]" value="1" id="hobby_1"/> 
                    <label for="hobby_1">Games</label>
@@ -30,12 +36,16 @@
             <div>Gender</div>
             <div>
                 <div>
-                    <input type="radio" name="gender" value="f"/>
-                    <span>Female</span>
+                    <label>
+                        <input type="radio" name="gender" value="f"/>
+                        <span>Female</span>
+                    </label>
                 </div>
                 <div>
-                    <input type="radio" name="gender" value="m"/>
-                    <span>Male</span>
+                    <label>
+                        <input type="radio" name="gender" value="m"/>
+                        <span>Male</span>
+                    </label>
                 </div>
             </div>
            
