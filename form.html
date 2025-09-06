@@ -4,7 +4,12 @@
     </head>
 
     <body>
-        <form>
+        <form
+        method="post"
+        action="https://vnexpress.net"
+        enctype="multipart/form-data"
+        >
+            <input type="file"/>
             <label>
                 <span>Full Name</span>
                 <input type="text" value="Nguyen Thanh Luan" name="full_name" placeholder="Input Your Name"/>
@@ -48,7 +53,12 @@
                     </label>
                 </div>
             </div>
-           
+
+            <button>
+                Submit Data
+            </button>
+
+            <input type="submit" value="Submit Data"/>
         </form>
     </body>
 </html>
