@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+            <div class="col-1"></div>
+            <div class="col-2"></div>
+            <div class="col-3"></div>
+    </div>
+
+    <style>
+        .container{
+            width:899px;
+            border:1px solid red;
+            margin: 0 auto;
+            height: 900px;
+        }
+
+        .container > .col-1{
+            width:50%;
+            height: 100%;
+            background-color: aquamarine;
+            float: left;
+        }
+
+        .container > .col-2{
+            width:25%;
+            height: 100%;
+            background-color: blueviolet;
+            float:left;
+            margin-left:2.5%
+        }
+
+        .container > .col-3{
+            width:20%;
+            height: 100%;
+            background-color: chartreuse;
+            float:right;
+        }
+    </style>
+</body>
+</html>
