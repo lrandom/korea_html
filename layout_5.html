@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">header</div>
+        <div class="nav">nav</div>
+
+        <div class="content">
+            <div class="col-1">Col 1</div>
+            <div class="col-2">Col 2</div>
+            <div class="col-3">Col 3</div>
+        </div>
+
+        <div class="footer">footer</div>
+    </div>
+
+    <style>
+        .container {
+            width: 800px;
+            border: 1px solid black;
+            margin:0px auto;
+            position: relative;
+        }
+
+        .header{
+           padding:10px;
+           background: #ccc;
+           text-align: center;
+        }
+
+        .nav{
+            background: #ccc;
+            margin-top:10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .content{
+            margin-top: 10px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content .col-1{
+            width:20%;
+            height: 500px;
+            background: red;
+        }
+
+        .content .col-2{
+            width:50%;
+            height: 500px;
+            background: blue;
+        }
+
+        .content .col-3{
+            width:20%;
+            height: 500px;
+            background: green;
+        }
+
+
+        .footer{
+            background-color: #ccc;
+            padding:10px;
+            margin-top:10px;
+        }
+    </style>
+</body>
+</html>
