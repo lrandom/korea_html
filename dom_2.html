@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="node">
+
+    </div>
+
+    <button onclick="changeTextAndBackground()">
+        Change Text And Background
+    </button>
+    <script>
+      
+
+        function changeTextAndBackground(){
+            const divNode = document.getElementById("node");
+            //document.querySelector("#node");
+            divNode.innerHTML = "<strong>Hello World</strong>"
+            divNode.style.backgroundColor = "red";
+        }
+    </script>
+</body>
+</html>
