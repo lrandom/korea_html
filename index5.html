@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const tomCat = {
+            name : "Tom",
+            age: 5, 
+            color: "grey",
+            huntingMouse: function(){
+                console.log("I hunt Jerry everyday");
+            } 
+        }
+
+        const jerryMouse = {
+            "my name" : "Jerry",
+            age: 1, 
+            color: "orange",
+            trollingTom: function(){
+                console.log("I troll Tom everyday, haha");
+            } 
+        }
+        console.log(tomCat.name);//access to name
+        console.log(tomCat.huntingMouse()); //access to huntingMouse function
+
+        console.log(jerryMouse["my name"]);//Jerry
+
+        function Person(name, age){
+            this.name = name;
+            this.age = age;
+            
+            this.learning = function(){
+                console.log(this.name+" learning");
+            }
+        }
+
+        const nam = new Person("Nam",30);
+        nam.learning();
+
+        const long = new Person("Long", 20);
+        long.learning();
+    </script>
+</body>
+</html>
