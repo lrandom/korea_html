@@ -17,3 +17,7 @@ Sau 2 giây, di chuyển hộp sang góc trên bên phải
 Sau 2 giây tiếp, di chuyển hộp sang góc dưới bên phải
 Sau 2 giây tiếp, di chuyển hộp sang góc dưới bên trái
 Sau 2 giây tiếp, di chuyển hộp sang góc trên bên trái
+
+3. Viết chương trình tạo slide ảnh như sau 
+
+<img src="slide.png"/>
