@@ -38,6 +38,17 @@
             }
         }
 
+        class PersonClass{
+            constructor(name,age){
+                this.age = age;
+                this.name= name;
+            }
+
+            learning(){
+                console.log(this.name+" learning");
+            }
+        }
+
         const nam = new Person("Nam",30);
         nam.learning();
 
