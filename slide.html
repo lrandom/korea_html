@@ -18,6 +18,18 @@
         <div class="slide_item">
             <img  src="imgs/3.webp" />
         </div>
+
+        <ul class="slide_page_indicators">
+            <li>
+                <button class="slide_page_indicator_item"></button>
+            </li>
+            <li>
+                <button class="slide_page_indicator_item"></button>
+            </li>
+            <li>
+                <button class="slide_page_indicator_item"></button>
+            </li>
+        </ul>
    </div>
 
     <style>
@@ -26,12 +38,16 @@
             margin:0px auto;
             width:800px;
         }
-        
+
         .slide_item{
             width:800px;
             height: 400px;
             overflow: hidden;
             position: absolute;
+        }
+
+        .slide_item--hidden{
+            display: none;
         }
 
         .slide_item img{
