@@ -8,29 +8,38 @@
 </head>
 <body>
    <div class="slide">
-        <div class="slide_item">
+        <div class="slide_item slide_item--active" data-index="1">
             <img  src="imgs/1.webp" />
         </div>
 
-        <div class="slide_item">
+        <div class="slide_item" data-index="2">
             <img  src="imgs/2.jpg" />
         </div>
 
-        <div class="slide_item">
+        <div class="slide_item" data-index="3">
             <img  src="imgs/3.webp" />
         </div>
 
         <ul class="slide_page_indicators">
             <li>
-                <div role="button" class="slide_page_indicator_item"></div>
+                <div role="button" 
+                data-index="1"
+                class="slide_page_indicator_item 
+                slide_page_indicator_item--active"></div>
             </li>
             <li>
-                <div role="button" class="slide_page_indicator_item"></div>
+                <div role="button" 
+                data-index="2"
+                class="slide_page_indicator_item"></div>
             </li>
             <li>
-                <div role="button" class="slide_page_indicator_item"></div>
+                <div role="button" 
+                data-index="3"
+                class="slide_page_indicator_item"></div>
             </li>
         </ul>
    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
